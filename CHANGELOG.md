@@ -1,6 +1,14 @@
 # Version 2 (2020-07-02)
 
 ## Features
+* change log addeD ([82c902]
+* new code added ([685c0c]
+* new js added ([5baab3]
+* Added index.js script ([cd3126]
+
+# Version 2 (2020-07-02)
+
+## Features
 * change log addeD ([82c902]* new code added ([685c0c]* new js added ([5baab3]* Added index.js script ([cd3126]
 # Version 2 (2020-07-02)
 
