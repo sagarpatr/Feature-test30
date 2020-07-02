@@ -30,17 +30,17 @@ commitsArray.forEach(commit => {
       `* ${commit.message.replace("feature: ", "")} ([${commit.sha.substring(
         0,
         6
-      )}](https://github.com/jackyef/changelog-generator/commit/${
+      )}](https://github.com/sagarpatr/Feature-test30/commit/${
         commit.sha
       }))\n`
     );
   }
-  if (commit.message.startsWith("chore: ")) {
+  if (commit.message.startsWith("edit: ")) {
     chores.push(
       `* ${commit.message.replace("chore: ", "")} ([${commit.sha.substring(
         0,
         6
-      )}](https://github.com/jackyef/changelog-generator/commit/${
+      )}](https://github.com/sagarpatr/Feature-test30/commit/${
         commit.sha
       }))\n`
     );
