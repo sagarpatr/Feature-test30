@@ -30,7 +30,7 @@ commitsArray.forEach(commit => {
       `* ${commit.message.replace("feature: ", "")} ([${commit.sha.substring(
         0,
         6
-      )}]`
+      )}]\n`
       
       // (https://github.com/sagarpatr/Feature-test30/commit/${
       //   commit.sha
@@ -42,7 +42,7 @@ commitsArray.forEach(commit => {
       `* ${commit.message.replace("chore: ", "")} ([${commit.sha.substring(
         0,
         6
-      )}]`
+      )}]\n`
       // (https://github.com/sagarpatr/Feature-test30/commit/${
       //   commit.sha
       // }))\n`
